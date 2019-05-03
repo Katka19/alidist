@@ -52,7 +52,8 @@ fi
 
 if [[ $CXXSTD && $CXXSTD -ge 17 ]]; then
   # Use C++14: https://github.com/boostorg/system/issues/26#issuecomment-413631998
-  CXXSTD=14
+  # CXXSTD=14
+  CXXSTD=17
 fi
 
 TMPB2=$BUILDDIR/tmp-boost-build
